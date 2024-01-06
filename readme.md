@@ -27,13 +27,13 @@ This repository contains a machine learning model using semi-supervised techniqu
      ```
 
 
-2. Open your web browser and navigate to `http://localhost:8000/docs` to access the API documentation (You can also test the api using this page).
+2. Open your web browser and navigate to `http://localhost:8000/docs` to access the API documentation (you can also test the api using this page).
 
 3. Test the API by sending a POST request to `http://localhost:8000/predict` with the following JSON payload:
 
     ```json
     {
-      "email": "This is a spam email!"
+      "email_text": "This is a spam email!"
     }
     ```
 
