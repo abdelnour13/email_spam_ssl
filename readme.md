@@ -19,11 +19,12 @@ This repository contains a machine learning model using semi-supervised techniqu
     ```bash
     uvicorn spam_detection_api:app --reload
     ```
-Or: 
 
-    ```bash
-    uvicorn spam_detection_api:app --reload --port 8001
-    ```
+    Or: 
+
+     ```bash
+     uvicorn spam_detection_api:app --reload --port 8001
+     ```
 
 
 2. Open your web browser and navigate to `http://localhost:8000/docs` to access the API documentation (You can also test the api using this page).
