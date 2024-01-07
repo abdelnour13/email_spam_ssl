@@ -9,7 +9,7 @@ This repository contains a machine learning model using semi-supervised techniqu
 3. Install the required packages:
 
     ```bash
-    pip install fastapi scikit-learn uvicorn imbalanced-learn
+    pip install fastapi scikit-learn uvicorn imbalanced-learn nltk
     ```
 
 ## Usage
