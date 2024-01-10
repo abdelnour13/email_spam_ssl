@@ -9,6 +9,7 @@ const App = () => {
 		e.preventDefault();
 		const formData = new FormData(e.target);
 		const body = formData.get('body');
+		console.log(body);
 
 		try {
 			const { data } = await axios.post('http://localhost:8001/predict', {

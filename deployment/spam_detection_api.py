@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from joblib import load
 import nltk
@@ -7,6 +8,14 @@ import re
 
 #launch server
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Set this to the origin of your frontend application
+    allow_credentials=False,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 #pre-processing
 stop_words = set(nltk.corpus.stopwords.words("english"))
