@@ -7,3 +7,4 @@ modeling_and_training/lable_propagation.ipynb
 deployment/venv
 deployment/__pycache__
 deployment/front/node_modules
+node_modules
