@@ -8,3 +8,4 @@ deployment/venv
 deployment/__pycache__
 deployment/front/node_modules
 node_modules
+__pycache__
