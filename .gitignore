@@ -4,8 +4,5 @@ models/label_spreading.joblib
 .ipynb_checkpoints
 modeling_and_training/label-spreading.ipynb
 modeling_and_training/lable_propagation.ipynb
-deployment/venv
-deployment/__pycache__
-deployment/front/node_modules
 node_modules
-__pycache__
+**/*/__pycache__
