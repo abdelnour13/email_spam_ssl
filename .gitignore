@@ -6,3 +6,4 @@ modeling_and_training/label-spreading.ipynb
 modeling_and_training/lable_propagation.ipynb
 node_modules
 **/*/__pycache__
+notebooks/.idea/
